@@ -8,7 +8,7 @@ harnessing the power of Node.js - Express.js - MongoDB
 ## 📋 Project Structure and Database Handling:
 Model - Simple Blog entries contains - title, snippet and blog body
 
-View  - Rendered HTML (ejs) used for dynamic code injections
+View  - Rendered HTML (ejs) used for dynamic code injections, CSS
 
 Controller – Express.js application rendering  views, partials and database information and handling all requests for the DB.
 
