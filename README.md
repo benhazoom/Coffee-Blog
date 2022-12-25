@@ -47,4 +47,9 @@ All blog entries are saved in MongoDB
 I used Mongoose in my project for convenience 
 
 ### :construction: Coming Soon
-user implementation
+User implementation:
+register, log in, blog entry has author property
+
+comments:
+ability to add comments with name, time and more properties 
+comment will share the blog id property between the DB schemas
