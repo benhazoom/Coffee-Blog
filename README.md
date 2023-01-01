@@ -49,6 +49,7 @@ I used Mongoose in my project for convenience
 ### :construction: Coming Soon
 User implementation:
 register, log in, blog entry has author property
+locked entries - cannot be deleted
 
 comments:
 ability to add comments with name, time and more properties 
