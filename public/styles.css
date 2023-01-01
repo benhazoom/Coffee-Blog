@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
     body{
-      max-width: 1200px;
+      max-width: 1300px;
       margin: 20px auto;
       padding: 0 20px;
       font-family: 'Noto Serif', serif;
-      max-width: 1200px;
     }
     p, h1, h2, h3, a, ul{
       margin: 0;
@@ -17,7 +16,7 @@
     nav{
       display: flex;
       justify-content: space-between;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
       padding-bottom: 10px;
       border-bottom: 1px solid #ddd;
       text-transform: uppercase;
@@ -49,6 +48,10 @@
     h3{
       text-transform: capitalize;
       margin-bottom: 8px;
+    }
+    h5{
+      margin-top: 0;
+      color:#777 ;
     }
     .content{
       margin-left: 20px;
@@ -109,3 +112,9 @@
       font-size: 1.2em;
       cursor: pointer;
     }
+    .rotating-coffee-cup{
+      text-align: center;
+
+    }
+
+   

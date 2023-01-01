@@ -22,6 +22,8 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.10",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mouse-event": "^1.0.5",
+    "passport-google-oauth20": "^2.0.0"
   }
 }

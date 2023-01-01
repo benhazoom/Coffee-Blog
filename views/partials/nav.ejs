@@ -3,9 +3,36 @@
     <a href="/"><h1>Coffee Blog</h1></a>
     <p>Blog for coffee geeks and freaks</p>
   </div>
+  <div>
+    <img src="1.jpg" id="cc" alt="" width="100" height="100">
+  </div>
   <ul>
     <li><a href="/">Blogs</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/blogs/create">New Blog</a></li>
   </ul>
 </nav>
+
+<script>
+  var cursor = document.getElementById('cursor');//get cursor element for mouse position
+  var cc = document.getElementById('cc');//gets the coffee cup by its id
+  var ccrekt = cc.getBoundingClientRect();//gets the recktangle that blocks the coffeecup
+  //coffe cup (element) pos
+  var ex = ccrekt.left + ccrekt.width/2;
+  var ey = ccrekt.top + ccrekt.height/2;
+
+  document.addEventListener('mousemove',function(e){
+    //cursor pos
+    var cx = e.clientX;
+    var cy = e.clientY;
+    //different between
+    var dx = ex-cx;
+    var dy = ey-cy;
+    //angle of the line in radiants
+    var rad = Math.atan2(dy,dx);
+    //in degrees
+    var deg = rad*180 / Math.PI;
+    //transforming rotate properti according to the angle every mouse move
+    cc.style.transform = `rotate(${90+deg}deg)`;
+  })
+</script>
