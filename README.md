@@ -1,4 +1,4 @@
-# ☕ Coffee Blog - Node.js project
+﻿# ☕ Coffee Blog - Node.js project
 
 ## 🔎 Overview
 This Web site represents a Mvc (Model, View, Controller) type Node.js application of a Coffee Blog
@@ -49,6 +49,7 @@ I used Mongoose in my project for convenience
 ### :construction: Coming Soon
 User implementation:
 register, log in, blog entry has author property
+
 locked entries - cannot be deleted
 
 comments:
