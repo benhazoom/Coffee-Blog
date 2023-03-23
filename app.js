@@ -8,7 +8,7 @@ const Blog = require('./models/blog');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://benhazoom:56872130@blog1.mozomcf.mongodb.net/blog1?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://benhazoom:--hidden--@blog1.mozomcf.mongodb.net/blog1?retryWrites=true&w=majority";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
   .catch(err => console.log(err));
